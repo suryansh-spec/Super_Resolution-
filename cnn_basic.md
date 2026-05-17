@@ -1,0 +1,3 @@
+implimenting SRCNN from scratch, the notebook includes process of preprocessing the data to feed into the neural network, building the dataloader pipeline and trying out different losses like MSE and L1, MSE was smoother and a bit linear but L1 notably provided sharper edges and textures than MSE,
+overall both the losses absolutely suck at visual fedielity and the cnn is trash for real world use, its just a scintific implimentation that shows principles of convolutional neural networks, 
+i will try to increase the visual fedielity with several methods like new losses, increasing the epoches, training more, introducing random size images, increasing the convolutional layers(it only has 3 rn)
